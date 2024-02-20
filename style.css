@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto:ital,wght@0,400;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+font-family: 'Roboto';
+width: 100%;
+height: 100vh;
+}
+
+.container{
+    background-color: white;
+    border: 0.5px solid rgb(228, 228, 228) ;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    width:100px;
+    height: 100px;
+    margin-left: 55px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.pages{
+    display: flex;
+}
+ul>li{
+    list-style: none;
+    padding: 15px;
+}
+ul>li>a{
+    text-decoration: none;
+    color: #000;
+}
+
+.button{
+    background: #5fcac7;
+    font: 16px "DM Sans",sans-serif;
+    padding: 9px 14px;
+    margin-left: 150px;
+    border-radius: 15px;
+    color: #fff;
+    border: 0px solid rgb(231, 222, 222);
+    cursor: pointer;
+}
+.button:hover{
+    background: #2e9e9a;
+    color: #000;
+    transition: 0.6s;
+    opacity: 0.9;
+}
+.soc{
+    padding-left:120px;
+}
+.soc-item{
+    margin: 20px;
+    color: #000;
+}
+.soc-item>a{
+    list-style: none;
+    text-decoration: none;
+}
+i{
+    font-size: 20px;
+}
+/* .soc-item>a>i:hover{
+    transform: scaleX(1);
+} */
+.jumbotron{
+    width: 100%;
+}
+.jumbotron-img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.589),rgba(0, 0, 0, 0.842)) , url(images/bakery-1920x1280.jpg);
+    width: 100%;
+    height: 840px;
+    background-size: cover;
+    background-position: center;
+}
+.jumbotron-content{
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    color: #fff;
+}
+.jumbotron-content>h1{
+    font-size: 60px;
+    font-weight: 800;
+}
+.jumbotron-content>p{
+    font-size: 22px;
+    font-weight: 300;
+    margin: 20px;
+}
+.order{
+    background-color: #5fcac7;
+    font: 22px "DM Sans",sans-serif;
+    padding: 10px 20px ;
+    margin-top: 80px;
+    border: 0px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    color:#fff;
+}
+.order:hover{
+    transition: 0.5s;
+    opacity: 0.5;
+    color: #000;
+}
+section{
+    width: 100%;
+}
+.section01{
+    background-image: url(images/bakery4-5-1200x800.jpg);
+    background-position:center;
+    background-size: auto;
+    width: 100%;
+    height: 100%;
+}
+.h1{
+text-align: center;
+font-size: 40px;
+font-weight: 400;
+padding: 45px;
+margin: 0px 0px 0px 15px;
+}
+.bakery{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 950px;
+}
+.center{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 25px;
+}
+img{
+    border: 0px solid white;
+    border-radius: 15px;
+}
+
+.back{
+    width: 100%;
+    height: 700px;
+    background-image:linear-gradient(rgba(30, 241, 231, 0.61),rgba(129, 192, 194, 0.842)), url(images/bakery12-3-1200x800.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box{
+    margin-top: 90px;
+    padding: 100px;
+}
+.box1{
+    width: 900px;
+    height: 500px;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+.cont{
+    text-align: center;
+    margin-top: 100px;
+    padding: 35px;
+}
+.pa{
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    margin: 15px;
+}
+.Magic{
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    padding: 25px;
+}
+.discover{
+    padding:  10px 15px;
+    margin: 5px;
+    font-size: 20px;
+    border: 0px solid;
+    background-color: #5fcac7;
+    color: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+}
+.discover:hover{
+    background-color: aliceblue;
+    color: #000;
+    transition: 0.5s ease-in; 
+    transform: scaleX(1);
+}
+
+.fa-xl{
+    font-size: 60px;
+    padding: 35px;
+}
+
+.creating{
+width: 100%;
+height: 100%;
+
+}
+.creations{
+    text-align: center;
+    padding: 55px;
+}
+.text{
+    margin: 20px 0px 50px;
+    font-family: 'roboto';
+    font-size: 40px;
+    color: #5e5555;
+}
+.img-center{
+    width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.img-cent{
+    margin: 10px 0px 10px 0px;
+}
+
+.recipes{
+    background-image: url(images/bakery24-1-1200x800.jpg);
+    background-color: #dad5d5;
+    margin-top: 65px;
+}
+.recipe{
+    text-align: center;
+    padding: 55px;
+}
+.b{
+    padding: 15px;
+    font: 1.2em sans-serif;
+    color: #554c4c;
+}
+.Ingred{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+    color: #685656;
+}
+.circle{
+    border: 0px solid beige;
+    border-radius: 50%;
+    padding: 20px;
+}
+.pud{
+    padding: 10px;
+    color: #363131;
+    font-size: 20px;
+}
+
+.Clients{
+    width: 100%;
+    height: 790px;
+    background-image:linear-gradient(rgba(34, 32, 32, 0.808),rgba(197, 68, 158, 0.514)), url(images/bakery26-1200x800.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.say{
+    text-align: center;
+    padding: 35px;
+    font-size: 30px;
+}
+.flex{
+    width: 542px;
+    height: 500px;
+    margin: auto;
+    display: -webkit-flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.justify{
+    padding: 20px;
+}
+/* 
+.colume{
+    width: 900px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+} */
+
+.last-img{
+    background-image:linear-gradient(rgba(34, 32, 32, 0.808),rgba(129, 192, 194, 0.842)), url(images/bakery3-2-1200x800.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+
+.sweet{
+    text-align: center;
+    padding-top: 95px;
+    font-size: 30px;
+}
+
+.input{
+    text-align: center;
+    padding: 20px;
+}
+.email{
+    border: 2px solid rgb(228, 225, 225);
+    padding: 15px 22px;
+    border-radius: 25px;
+    box-shadow: black;
+    background-color: transparent !important;}
+
+.submit{
+    background-color: #5fcac7;
+    font: 20px "DM Sans",sans-serif;
+    padding: 10px 20px ;
+    margin-top: 60px;
+    border: 0px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    color:#fff;
+    cursor: pointer;
+}
+.submit:hover{
+    background: #2e9e9a;
+    color: #000;
+    transition: 0.6s;
+}
+.FOLLOW{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.icon{
+text-align: center;
+}
+
+.icon>a>i{
+    padding: 5px;
+}
+
+.color{
+    background-color: #272424;
+}
+.footer{
+    height: 300px;
+    display: flex;
+    padding: 80px;
+    /* width: 1000px; */
+    justify-content: space-between;
+    align-items: center;
+}
+.end-flex>ul{
+    display: flex;
+    align-items: start;
+    color: #fff;
+}
+.rig{
+    color: #fff;
+    text-align: center;
+}
+.make{
+    color: white;
+}
